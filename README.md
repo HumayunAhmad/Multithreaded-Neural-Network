@@ -23,18 +23,10 @@ mkdir build && cd build
 cmake ..
 make
 ./multithreaded_nn
-```
 
 ## 📊 Example Output
-```
+
 0.01 
 0.98 
 0.97 
 0.02 
-```
-
-## 🧰 Extend It
-- Replace naive gradient step with full backpropagation
-- Add ReLU or Softmax activation
-- Implement thread pool instead of raw threads
-- Load and train on CSV datasets like MNIST
